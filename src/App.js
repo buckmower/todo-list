@@ -57,7 +57,21 @@ const FormContainer = styled.div`
   display: flex;
   margin-bottom: 20px;
   flex-direction: row;
+  justify-content: center;
   gap: 10px;
+  input {
+    width: auto;
+  }
+  button {
+    max-height: 85%;
+    align-self: center;
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    button {
+      width: 100%;
+    }
+ }
 `;
 
 const AppContainer = styled.div`
