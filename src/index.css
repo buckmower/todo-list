@@ -47,7 +47,7 @@ li {
   background-color: white;
   margin: 10px auto;
   padding: 15px;
-  width: 400px;
+  width: auto;
   text-align: left;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

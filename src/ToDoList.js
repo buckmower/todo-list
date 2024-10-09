@@ -2,7 +2,7 @@ import React from 'react';
 
 const ToDoList = ({ todos, search, onRemoveTodo }) => {
   return (
-    <ul>
+    <ul className="todo-list">
       {todos
         .filter(todo => todo.text.toLowerCase().includes(search.toLowerCase()))
         .map(todo => (
